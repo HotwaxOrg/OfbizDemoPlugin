@@ -1,5 +1,6 @@
 package com.companyname.ofbizdemo.events;
 
+// Package to handle HTTP requests and responses
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 

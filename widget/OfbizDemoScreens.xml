@@ -101,7 +101,7 @@ under the License.
                 <script location="component://OfbizDemo/webapp/OfbizDemo/WEB-INF/actions/crud/ListOfbizDemo.groovy"/>
             </actions>
             <widgets>
-                <decorator-screen name="main-decorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-screen name="OfbizDemoCommonDecorator" location="${parameters.mainDecoratorLocation}">
                     <decorator-section name="body">
                         <screenlet title="${uiLabelMap.OfbizDemoListOfbizDemos}">
                             <platform-specific>
@@ -113,7 +113,7 @@ under the License.
                                 <html><html-template location="component://OfbizDemo/webapp/OfbizDemo/crud/AddOfbizDemo.ftl"/></html>
                             </platform-specific>
                         </screenlet>
-                    </decorator-section>ListOfbizDemo.groovy"
+                    </decorator-section>
                 </decorator-screen>
             </widgets>
         </section>
